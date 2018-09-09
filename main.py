@@ -10,6 +10,7 @@ def main():
     data = np.loadtxt('data/credit-data.csv', dtype=np.int, delimiter=',', skiprows=1)
     X, y = data[:, 1:-1], data[:, -1]
     X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
+    
 
     # Fit the model against the training data.
     model = CreditModel()

@@ -38,8 +38,17 @@ _Good luck, and have fun with this_! :rocket:
 
 ## Write-up
 
-Give a brief summary of the approach you took, and why! Include your model's
-accuracy/precision/recall scores as well!
+It was a good exercise to test different algorithms on the given dataset. Since the problem at hand was a supervised machine learning problem,
+I listed the major algorithms which are typically used to solve such problems. The success rate for different algorithms is
+dependent on the distribution of dataset. A good approach is to identify few algorithms and pit them against each other. Various metric scores
+such as accuracy, precision, recall among others can be used to judge the performance of the algorithm. I tried Linear Regression, Logistic Regression,
+K-NearestNeighbours, ArtificialNeural Network, Naive Bayes and Random Forest to check theier performance. While every method can be optimized within itself,
+the preliminary model using Random Forest turned out to be the best in terms of the selected metrics.
+
+While scores associated with all the above mentioned methods can be found in ``TestModel.ipynb``, the scores with Random Forest are as follows:
+Accuracy : 80.547 %
+Precision : 59.333 %
+Recall : 32.821 %
 
 
 ## Data Format
